@@ -1,0 +1,19 @@
+{
+  "name": "beer-tap-dispenser",
+  "version": "1.0.0",
+  "description": "Anyone who goes to a festival at least one time knows how difficult is to grab some drinks from the bars. They are crowded and sometimes queues are longer than the main artist we want to listen!",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "serve": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.4.3",
+    "nodemon": "^2.0.20"
+  }
+}
