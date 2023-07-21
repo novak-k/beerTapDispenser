@@ -1,24 +1,20 @@
 # Beer tap dispenser API
 
 Anyone who goes to a festival at least one time knows how difficult is to grab some drinks from the bars. They are
-crowded and sometimes queues are longer than the main artist we want to listen!
+crowded and sometimes queues are longer than the main artist we want to listen to!
 
 That's why some promoters are developing an MVP for new festivals. Bar counters where you can go and serve yourself
 a beer. This will help make the waiting time much faster, making festival attendees happier and concerts even more
 crowded, avoiding delays!
-
-<p align="center">
-    <img alt="Tap dispenser" width="300px" src="./.github/assets/dispenser.png" />
-</p>
 
 ## How it works?
 
 The aim of this API is to allow organizers to set up these bar counters allowing the attendees self-serving.
 
 So, once an attendee wants to drink a beer they just need to open the tap! The API will start counting how much flow
-comes out and, depending on the price, calculate the total amount of money.
+comes out and, depending on the price, calculates the total amount of money.
 
-You could find the whole description of the API in the [OpenAPI description file](/api.spec.yaml) and send request to a
+You could find the whole description of the API in the [OpenAPI description file](/api.spec.yaml) and send a request to a
 mock server with [this URL](https://rviewer.stoplight.io/docs/beer-tap-dispenser/juus8uwnzzal5-beer-tap-dispenser)
 
 ### Workflow
@@ -47,9 +43,9 @@ service.
 
 * **A well-designed solution and architecture.** Avoid duplication, extract re-usable code
   where makes sense. We want to see that you can create an easy-to-maintain codebase.
-* **Test as much as you can.** One of the main pain points of maintaining other's code
+* **Test as much as you can.** One of the main pain points of maintaining another's code
   comes when it does not have tests. So try to create tests covering, at least, the main classes.
-* **Document your decisions**. Try to explain your decisions, as well as any other technical requirement (how to run the
+* **Document your decisions**. Try to explain your decisions, as well as any other technical requirements (how to run the
   API, external dependencies, etc ...)
 
 --- 
